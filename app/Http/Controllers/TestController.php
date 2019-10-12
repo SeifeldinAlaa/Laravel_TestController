@@ -1,6 +1,6 @@
 <?php
 
-namespace app\Http\Controllers;
+namespace App\Http\Controllers;
 
 
 use Illuminate\Http\Request;
@@ -11,25 +11,25 @@ use Illuminate\Http\Request;
 class TestController extends Controllers
 
 {
-    //
-    function index()
-    {
+     function index()
+     {
         echo "hello laravel 5.5 index ";
-    }
+      }
 
-function allcourses()
-{
-    echo "hello laravel 5.5 allcourses ";
-}
+     function allcourses()
+     {
+        echo "hello laravel 5.5 allcourses ";
+      }
 
+     function myfun3()
+     {
+        echo "hello laravel 5.5 myfun3 ";
+      }
+     
+     
 
-
-function myfun3()
-{
-    echo "hello laravel 5.5 myfun3 ";
 }
     
-            
-}
+     
 
 

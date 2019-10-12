@@ -12,5 +12,17 @@
  */
 
 Route::get('/', function () {
-    return view('welcome');
+    echo "Laravel";
 });
+
+
+
+
+
+Route::get('/AllCourses', "TestController@allcourses");
+
+
+
+Route::get('/getindex', "TestController@index");
+
+

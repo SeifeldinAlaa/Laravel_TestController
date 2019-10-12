@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 
 
-class TestController extends Controllers
+class TestController extends Controller
 
 {
      function index()

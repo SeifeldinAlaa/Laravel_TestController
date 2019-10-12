@@ -13,7 +13,6 @@ class TestController extends Controller{
 }
 
 
-{
      function index()
      {
         echo "hello laravel 5.5 index ";

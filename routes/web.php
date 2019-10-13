@@ -15,14 +15,6 @@ Route::get('/', function () {
     echo "Laravel";
 });
 
+Route::get('/allcourses', 'TestController');
 
-
-
-
-Route::get('/AllCourses', "TestController@allcourses");
-
-
-
-Route::get('/getindex', "TestController@index");
-
-
+Route::get('/getindex', 'TestController@index');
